@@ -82,8 +82,8 @@
     <string name="apps_sysupdate">Looking for reinstalled system apps. Just a sec…</string>
     <string name="apps_init_size">Calculating app size. Just a sec…</string>
     <string name="apps_sizeinfo">%1$.1f MB</string>
-    <string name="apps_label_app">"App: "</string>
-    <string name="apps_label_data">"Data: "</string>
+    <string name="apps_label_app">"アプリ: "</string>
+    <string name="apps_label_data">"データ: "</string>
     <string name="action_filter_all">すべて</string>
     <string name="action_filter_system">システムアプリ</string>
     <string name="action_filter_user">ユーザーアプリ</string>
@@ -248,7 +248,7 @@
     <string name="alert_save">保存</string>
     <string name="alert_discard">破棄</string>
     <string name="alert_cancel">キャンセル</string>
-    <string name="alert_continue">Continue</string>
+    <string name="alert_continue">続行</string>
     <string name="search_title">検索</string>
     <string name="status_requesting_root">root権限を要求しています</string>
     <string name="status_requesting_write">書き込み権限を要求しています</string>
