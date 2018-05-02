@@ -1,11 +1,11 @@
 <resources>
     <!--Main Activity-->
     <string name="app_name">Root ToolCase</string>
-    <string name="action_pro">Remove ads</string>
+    <string name="action_pro">広告を削除</string>
     <string name="action_about">このアプリについて</string>
     <string name="action_translate">Translate</string>
-    <string name="action_share">Share</string>
-    <string name="action_rate">Rate</string>
+    <string name="action_share">共有</string>
+    <string name="action_rate">評価</string>
     <string name="action_follow">Follow</string>
     <string name="action_account">User account</string>
     <string name="action_settings">設定</string>
@@ -14,14 +14,14 @@
     <string name="title_root">ROOT REQUIRED</string>
     <string name="title_flasher">Flash Wizard</string>
     <string name="title_buildprop">Build.prop Editor</string>
-    <string name="title_misc">Miscellaneous</string>
+    <string name="title_misc">その他</string>
     <string name="title_activity_app_manager">App Manager</string>
     <string name="title_activity_app">App Info</string>
     <string name="title_activity_reboot">Advanced Reboot</string>
     <string name="title_activity_init_d">Init.d Emulator</string>
     <string name="title_activity_editor">Editor</string>
     <string name="title_activity_build_prop">Build.prop Editor</string>
-    <string name="title_activity_misc">Miscellaneous tools</string>
+    <string name="title_activity_misc">その他のツール</string>
     <string name="alert_translate_title">アプリの翻訳</string>
     <string name="alert_translate_message">このアプリをあなたがお使いの言語への翻訳に参加してみませんか？</string>
     <string name="alert_translate_yes">参加する</string>
@@ -31,7 +31,7 @@
     <string name="summary_root">This app requires root to function properly</string>
     <string name="summary_buildprop">"Edit your ROM's build properties"</string>
     <string name="summary_initd">Run scripts at boot time</string>
-    <string name="summary_misc">Miscellaneous tools</string>
+    <string name="summary_misc">その他のツール</string>
     <string name="alert_premium">Thank you for upgrading to premium!</string>
     <string name="alert_twitter_title">Root ToolCase on Twitter</string>
     <string name="alert_twitter_message">Root ToolCase is now on Twitter!\n\nFollow us to receive news about the latest app updates etc.</string>
@@ -43,14 +43,14 @@
     <!--Flash Wizard-->
     <string name="title_activity_flash">Flash Wizard</string>
     <string name="summary_flasher">Install flashable zips or images</string>
-    <string name="flasher_header">Choose an action</string>
+    <string name="flasher_header">アクションを選択</string>
     <string name="flasher_type_zip">Install flashable zip (TWRP or CWM required)</string>
     <string name="flasher_type_recovery">Install recovery image</string>
     <string name="flasher_type_boot">Install boot image (kernel)</string>
     <string name="flasher_hint_zip">Add up to 5 zip files to the flash queue</string>
-    <string name="flasher_hint_image">Choose an image file</string>
-    <string name="alert_choose_zip">Select zip file to install</string>
-    <string name="alert_choose_img">Select image file to install</string>
+    <string name="flasher_hint_image">イメージファイルを選択</string>
+    <string name="alert_choose_zip">インストールするZIPファイルを選択</string>
+    <string name="alert_choose_img">インストールするイメージファイルを選択</string>
     <string name="alert_recovery_title">Flash Recovery Image</string>
     <string name="alert_recovery_progress">Flashing Recovery Image</string>
     <string name="alert_recovery_message">Flashing the wrong image may corrupt your recovery partition.\n\nAre you sure you want to proceed?</string>
@@ -95,7 +95,7 @@
     <string name="action_sort_by_appsize">Sort by apk size</string>
     <string name="action_sort_by_datasize">Sort by data size</string>
     <string name="action_sort_by_totalsize">Sort by total size</string>
-    <string name="action_title">Choose an action</string>
+    <string name="action_title">アクションを選択</string>
     <string name="action_uninstall">アンインストール</string>
     <string name="action_freeze">無効にする</string>
     <string name="action_unfreeze">有効にする</string>
@@ -153,18 +153,18 @@
     <string name="alert_premium_title">Premium feature</string>
     <string name="alert_premium_message">This is a premium feature. Please upgrade to the ad-free version.\n\nAlternatively, you can watch a video ad to unlock this feature for this session.</string>
     <string name="alert_upgrade">Upgrade</string>
-    <string name="alert_play_ad">Play ad</string>
+    <string name="alert_play_ad">広告を再生</string>
     <string name="alert_newlist">Create new list</string>
     <string name="alert_newlist_title">New custom list</string>
     <string name="alert_newlist_message">Enter a name for your custom app list</string>
     <string name="alert_progress">%1$s (%2$d/%3$d)</string>
     <string name="alert_multiuninstall_na">Uninstalling multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
     <string name="alert_multifreeze_na">Freezing multiple system apps at once is not allowed, because it carries the risk of damaging your ROM.\n\nPlease make another selection without any system app.</string>
-    <string name="alert_choose_apk">Select an apk</string>
+    <string name="alert_choose_apk">apkを選択</string>
     <string name="alert_type_title">Install \"%s\" as</string>
     <string name="alert_type_system">システムアプリ</string>
     <string name="alert_type_user">ユーザーアプリ</string>
-    <string name="search_hint">Search for apk</string>
+    <string name="search_hint">apkを検索</string>
     <string name="toast_uninstall_success">%1$s successfully uninstalled</string>
     <string name="toast_extract_success">%1$s successfully extracted</string>
     <string name="toast_newlist_success">\"%1$s\" successfully created</string>
@@ -304,8 +304,8 @@
     <string name="create_account">Create Account</string>
     <string name="sign_out">ログアウト</string>
     <string name="verify_email">Send verification link</string>
-    <string name="alert_email">Enter Email address</string>
-    <string name="email">Email</string>
+    <string name="alert_email">メールアドレスを入力</string>
+    <string name="email">メール</string>
     <string name="reset_password">Reset password</string>
     <string name="forgot_password">Forgot password</string>
     <string name="forgot_password_link"><u>Forgot password</u></string>
@@ -382,13 +382,13 @@
     <string name="bloatware_unsafe">Unsafe</string>
     <string name="bloatware_unknown">"Don't know yet"</string>
 
-    <string name="alert_details">Show details</string>
+    <string name="alert_details">詳細を表示</string>
     <string name="toast_feedback">Thank you for your feedback!</string>
     <string name="number_reports">%d reports</string>
     <string name="safe_percentage">%d %% safe to remove</string>
     <string name="bloatware_found">%1$d apps found</string>
-    <string name="menu_all">All</string>
-    <string name="menu_none">None</string>
+    <string name="menu_all">すべて</string>
+    <string name="menu_none">なし</string>
     <string name="title_activity_bloatware">Bloatware Assistant</string>
     <string name="alert_uninstalling_pkg">Uninstalling %s</string>
     <string name="summary_bloatware">Scan your apps for bloatware</string>
